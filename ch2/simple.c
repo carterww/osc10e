@@ -9,9 +9,9 @@
  * Copyright John Wiley & Sons - 2018
  */
 
+#include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/module.h>
-#include <linux/kernel.h>
 
 /* This function is called when the module is loaded. */
 static int simple_init(void)
